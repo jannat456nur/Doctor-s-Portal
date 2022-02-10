@@ -1,16 +1,14 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import chair from '../../../images/chair.png';
-import bg from '../../../images/bg.png';
 import { Typography } from '@mui/material';
-import { style } from '@mui/system';
+
 
 const Banner = () => {
-    const bannerBg = {
-        background: `url(${bg})`,
-    }
+    // const bannerBg = {
+    //     background: `url(${bg})`,
+    // }
     const verticalCenter = {
         display: 'flex',
         alignments: 'center',

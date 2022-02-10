@@ -7,7 +7,7 @@ import Services from '../Services/Services';
 
 
 const Home = () => {
-    // const [date, setDate] = React.useState(new Date());
+
     return (
         <div>
 
@@ -16,10 +16,7 @@ const Home = () => {
             <Services></Services>
             <Calender></Calender>
             <AppointmentBanner></AppointmentBanner>
-            {/* <Booking></Booking> */}
 
-            {/* <AppointmentHeader date={date} setDate={setDate}></AppointmentHeader>
-            <AvailableAppointment date={date}></AvailableAppointment> */}
 
 
         </div>
