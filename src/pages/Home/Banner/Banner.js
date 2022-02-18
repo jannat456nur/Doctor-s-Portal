@@ -5,7 +5,7 @@ import chair from '../../../images/chair.png';
 import bg from '../../../images/bg.png';
 import Container from '@mui/material/Container';
 import { Typography } from '@mui/material';
-
+import { Button } from '@mui/material';
 
 const Banner = () => {
     // const bannerBg = {
@@ -15,7 +15,7 @@ const Banner = () => {
         display: 'flex',
         alignments: 'center',
         height: 300,
-        border: '1px solid red'
+
     }
     return (
         <div style={{
@@ -27,12 +27,13 @@ const Banner = () => {
                 <Container fixed>
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={5}>
-                            <Typography variant='h3' style={{ color: 'black', fontWeight: 500 }} sx={{ textAlign: 'left' }}>
+                            <Typography variant='h3' style={{ color: 'black', fontWeight: 500 }} sx={{ my: 5, textAlign: 'left' }}>
                                 Your new  Smile  <br></br> starts  here
                             </Typography>
 
                             <Typography sx={{ my: 5, textAlign: 'left' }} style={{ color: 'gray' }}>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet dolor quasi iste adipisci neque, perferendis temporibus amet inventore blanditiis, cupiditate quas sapiente tempore ea mollitia libero harum. Eius, possimus?</p>
+                                <Button variant="contained" style={{ backgroundColor: 'rgba(38, 218, 199)' }}>Learn More</Button>
                             </Typography>
                         </Grid>
                         <Grid item xs={12} md={7} style={{ width: '300px' }} style={verticalCenter}>

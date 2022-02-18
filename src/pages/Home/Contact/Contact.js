@@ -15,7 +15,7 @@ const Contact = () => {
         <Box sx={{ flexGrow: 1 }}>
             <Container fixed>
                 <Grid container spacing={2} >
-                    <Grid item xs={4} sx={{ bgcolor: 'info.main' }}>
+                    <Grid item xs={4} sx={{ backgroundColor: 'rgba(38, 218, 199)' }}>
                         <Box sx={{ flexGrow: 1 }}>
                             <Grid container spacing={2}>
                                 <Grid item xs={4}>
@@ -41,7 +41,7 @@ const Contact = () => {
                             </Grid>
                         </Box>
                     </Grid>
-                    <Grid item xs={4} sx={{ bgcolor: 'info.main' }}>
+                    <Grid item xs={4} sx={{ backgroundColor: 'rgba(38, 218, 199)' }}>
                         <Box sx={{ flexGrow: 1 }}>
                             <Grid container spacing={2}>
                                 <Grid item xs={4}>

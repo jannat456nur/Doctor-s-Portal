@@ -3,6 +3,7 @@ import './App.css';
 import AuthProvider from './context/AuthProvider/AuthProvider';
 
 import Appointment from './pages/Home/Appointment/Appointment/Appointment';
+import Care from './pages/Home/Care/Care';
 import Contact from './pages/Home/Contact/Contact';
 import Home from './pages/Home/Home/Home/Home';
 import Login from './pages/Login/Login/Login';
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="/care">
+            <Care></Care>
           </Route>
           <Route path="/login">
             <Login></Login>
